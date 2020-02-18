@@ -1,0 +1,115 @@
+.cuadrado {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+}
+
+.rectangulo {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.trapezoide {
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid salmon;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    display: inline-block;
+}
+
+.paralelogramo {
+    width: 150px;
+    height: 100px;
+    transform: skew(25deg);
+    background-color: darksalmon;
+    display: inline-block;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: pink;
+    display: inline-block;
+}
+
+.ovalo {
+    width: 200px;
+    height: 100px;
+    border-radius: 100px / 50px;
+    background-color: lightpink;
+    display: inline-block;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid lightsalmon;
+    /* background-color: lightsalmon; */
+    display: inline-block;
+}
+
+.triangulo-abajo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid coral;
+    display: inline-block;
+}
+
+.triangulo-izq {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid tomato;
+    border-bottom: 50px solid transparent;
+    display: inline-block;
+}
+
+.triangulo-der {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid orangered;
+    border-bottom: 50px solid transparent;
+    display: inline-block;
+}
+
+.triangulo-top-izq {
+    width: 0;
+    height: 0;
+    border-top: 100px solid darkorange;
+    border-right: 100px solid transparent;
+    display: inline-block;
+}
+
+.triangulo-top-der {
+    width: 0;
+    height: 0;
+    border-top: 100px solid orange;
+    border-left: 100px solid transparent;
+    display: inline-block;
+}
+
+.triangulo-bot-izq {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid gold;
+    border-left: 100px solid transparent;
+    display: inline-block;
+}
+
+.triangulo-bot-der {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid yellow;
+    border-right: 100px solid transparent;
+    display: inline-block;
+}
